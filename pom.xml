@@ -15,6 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+    <id>github-release</id>
+    <url>http://10.10.16.67:8081/nexus/content/repositories/github-release</url>
+  </repository>
+</distributionManagement>
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
