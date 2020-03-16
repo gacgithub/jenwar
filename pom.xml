@@ -16,14 +16,11 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-  <repository>
-    <id>github-release</id>
-    <url>http://10.10.16.67:8081/nexus/content/repositories/github-release</url>
-  </repository>
     <snapshotRepository>
-    <id>github-snap</id>
-    <url>http://10.10.16.67:8081/nexus/content/repositories/github-snap</url>
-  </snapshotRepository>
+        <id>snapshots</id>
+        <name>docker-snapshots</name>
+        <url>http://10.10.16.66:8081/artifactory/jenwar-snaps-local</url>
+    </snapshotRepository>
 </distributionManagement>
   <build>
     <finalName>JenkinsWar</finalName>
