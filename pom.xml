@@ -21,6 +21,11 @@
         <name>docker-snapshots</name>
         <url>http://10.10.16.66:8081/artifactory/jenwar-snaps-local</url>
     </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>docker-releases</name>
+        <url>http://10.10.16.66:8081/artifactory/jenwar-release-local</url>
+    </repository>
 </distributionManagement>
   <build>
     <finalName>JenkinsWar</finalName>
